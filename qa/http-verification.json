@@ -1,0 +1,39 @@
+{
+  "result": "PASS",
+  "brand": "Cocomiel Kids Wear",
+  "businessFlow": "retail-collection-enquiry",
+  "checks": [
+    "All page/example routes: HTTP200, one H1, unique IDs, security/noindex headers and correct brand",
+    "All internal links, scripts/styles/fonts and image assets return200",
+    "Server search/reversed terms, category filter, empty state and HTML encoding",
+    "Unknown/private paths404, retail routes absent on manufacturer, health, gzip and versioned asset caching",
+    "Correct contact and brand; draft only, no false order; server validation rejects tampering, bad inputs, missing CSRF, malformed JSON/null and wrong content type",
+    "Per-IP enquiry rate limit429"
+  ],
+  "routes": [
+    "/",
+    "/shop",
+    "/saved",
+    "/our-world",
+    "/contact",
+    "/privacy",
+    "/lookbook",
+    "/style-guide",
+    "/bag",
+    "/checkout",
+    "/product/grey-puffer-casual-look",
+    "/product/grey-vest-layered-look",
+    "/product/olive-vest-check-look",
+    "/product/blue-check-denim-look",
+    "/product/caramel-knit-baby-look",
+    "/product/plaid-hooded-casual-look",
+    "/product/navy-letter-print-look",
+    "/product/berry-star-layered-look",
+    "/product/cream-and-olive-heart-look",
+    "/product/pink-bear-casual-look"
+  ],
+  "products": 10,
+  "internalAssetsAndLinks": 41,
+  "images": 12,
+  "scope": "Local compiled ASP.NET10 release. No messages sent, orders placed, payments or VPS load test."
+}
